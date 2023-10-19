@@ -1,0 +1,25 @@
+
+.menu-link-studio{
+    color: #2E2F42;
+
+}
+.button {
+    color: #4D5AE5; border: 70px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.button:hover {
+    color: #404BBF;
+}
+.mail {
+    color: #2E2F42;
+}
+.mail:hover {
+    color: #4D5AE5;
+}
+.telephone {
+    color: #2E2F42;
+}
+.telephone:hover {
+    color: #4D5AE5;
+} 
