@@ -1,37 +1,91 @@
 
-body {
-    font-family: "Roboto", "Raleway", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-}
 .list {
     list-style-type: none;
 }
 .link {
     text-decoration: none;
 }
-.menu-link-studio{
-    color: #2E2F42;
-
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
-.button {
-    color: #4D5AE5; border: 70px;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
+/* =======HEADER STYLES ======*/
+.logo {
+color: var(--IRIS, #4D5AE5);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
-.button:hover {
-    color: #404BBF;
+.menu-link {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--NAVY-BLUE, #2E2F42);
+}
+.menu-link:hover {
+color: #4D5AE5;
+}
+.studio:active {
+    color: #4D5AE5;
+    text-decoration: underline;
 }
 .mail {
     color: #2E2F42;
 }
+
 .mail:hover {
     color: #4D5AE5;
 }
+
 .telephone {
     color: #2E2F42;
 }
+
 .telephone:hover {
     color: #4D5AE5;
-} 
+}
+/* =======HEADER STYLES ======*/
+
+/* ====== HERO SECTION =====*/
+.hero-section {
+    background-color: #2E2F42;
+}
+
+h1 {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    /* 107.143% */
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.button {
+    color: #FFFFFF;
+    border: 70px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.button:hover {
+    color: #404BBF;
+}
+/* ====== HERO SECTION =====*/
+
+
+/* ====== OUR BENEFITS =====*/
+.our-benefits {
+    background-color: #F4F4FD; 
+}
+/* ====== OUR BENEFITS =====*/
