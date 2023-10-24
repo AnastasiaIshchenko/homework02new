@@ -37,10 +37,6 @@ color: #404BBF;
 .menu-link:focus {
     color: #404BBF;
 }
-.studio:active {
-    color: #4D5AE5;
-    text-decoration: underline;
-}
 .adress {
     font-style: normal;
 }
@@ -78,7 +74,7 @@ color: #404BBF;
     background-color: #2E2F42;
 }
 
-h1 {
+.solutions {
     text-align: center;
     font-family: Roboto;
     font-size: 56px;
@@ -93,12 +89,16 @@ h1 {
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
-    border-radius: 4px;
-    background: var(--IRIS, #4D5AE5);
+    background: #4D5AE5;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .button:hover {
-    color: #404BBF;
+    background-color: #404BBF;
+}
+.button:focus {
+    background-color: #404BBF; 
 }
 /* ====== HERO SECTION =====*/
 
@@ -106,5 +106,15 @@ h1 {
 /* ====== OUR BENEFITS =====*/
 .our-benefits {
     background-color: #F4F4FD; 
+}
+.benefits {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.secondary-menu {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 /* ====== OUR BENEFITS =====*/
