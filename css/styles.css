@@ -34,25 +34,42 @@ logo-span {
 .menu-link:hover {
 color: #404BBF;
 }
+.menu-link:focus {
+    color: #404BBF;
+}
 .studio:active {
     color: #4D5AE5;
     text-decoration: underline;
 }
-.mail {
-    color: #2E2F42;
+.adress {
     font-style: normal;
+}
+.mail {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .mail:hover {
-    color: #4D5AE5;
+    color: #404BBF;
+}
+.mail:focus{
+    color: #404BBF;
 }
 
 .telephone {
-    color: #2E2F42;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .telephone:hover {
-    color: #4D5AE5;
+    color: #404BBF;
+}
+.telephone:focus {
+    color: #404BBF;
 }
 /* =======HEADER STYLES ======*/
 
