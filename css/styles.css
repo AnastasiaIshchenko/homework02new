@@ -12,7 +12,7 @@ body {
 }
 /* =======HEADER STYLES ======*/
 .logo {
-color: var(--IRIS, #4D5AE5);
+color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -21,6 +21,12 @@ color: var(--IRIS, #4D5AE5);
     text-transform: uppercase;
 }
 logo-span {
+    font-family:'Raleway',sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
     color: #2E2F42;
 }
 .menu-link {
@@ -41,8 +47,10 @@ color: #404BBF;
     font-style: normal;
 }
 .mail {
+    font-family: 'Roboto',sans-serif;
     color: #434455;
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -55,8 +63,10 @@ color: #404BBF;
 }
 
 .telephone {
+    font-family: 'Roboto', sans-serif;
     color: #434455;
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -117,4 +127,44 @@ color: #404BBF;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.menu-item-titel {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.paragraf {
+    color: #434455;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
 /* ====== OUR BENEFITS =====*/
+
+/*========OUR TEAM ======*/
+.titel2 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+     letter-spacing: 0.72px;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+/*========OUR TEAM ======*/
+
+/*======PAGE FOOTER=====*/
+.footer {
+        background-color: #2E2F42;
+}
+.paragraf-footer {
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+}
