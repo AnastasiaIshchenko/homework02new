@@ -20,16 +20,19 @@ color: var(--IRIS, #4D5AE5);
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+logo-span {
+    color: #2E2F42;
+}
 .menu-link {
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--NAVY-BLUE, #2E2F42);
+        color: #2E2F42;
 }
 .menu-link:hover {
-color: #4D5AE5;
+color: #404BBF;
 }
 .studio:active {
     color: #4D5AE5;
@@ -37,6 +40,7 @@ color: #4D5AE5;
 }
 .mail {
     color: #2E2F42;
+    font-style: normal;
 }
 
 .mail:hover {
@@ -63,7 +67,6 @@ h1 {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    /* 107.143% */
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
@@ -75,7 +78,6 @@ h1 {
     cursor: pointer;
     border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .button:hover {
