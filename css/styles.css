@@ -27,7 +27,7 @@ logo-span {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-    color: #2E2F42;
+        color: #2E2F42;
 }
 .menu-link {
         font-family: 'Roboto', sans-serif;
@@ -46,7 +46,7 @@ color: #404BBF;
 .adress {
     font-style: normal;
 }
-.mail {
+.contacts {
     font-family: 'Roboto',sans-serif;
     color: #434455;
     font-size: 16px;
@@ -55,28 +55,13 @@ color: #404BBF;
     letter-spacing: 0.02em;
 }
 
-.mail:hover {
+.contacts:hover {
     color: #404BBF;
 }
-.mail:focus{
+.contacts:focus{
     color: #404BBF;
 }
 
-.telephone {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.telephone:hover {
-    color: #404BBF;
-}
-.telephone:focus {
-    color: #404BBF;
-}
 /* =======HEADER STYLES ======*/
 
 /* ====== HERO SECTION =====*/
@@ -148,14 +133,14 @@ color: #404BBF;
 .our-team {
     background-color: #F4F4FD;
 }
-.titel2 {
+.titel {
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
      letter-spacing: 0.72px;
     text-transform: capitalize;
-    text-align: center
+    text-align: center;
     color: #2E2F42;
 }
 .names {
@@ -182,7 +167,7 @@ color: #404BBF;
         letter-spacing: 0.02em;
         color: #F4F4FD;
 }
-.logo-span1 {
+.logo-span-footer {
     font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: 700;
