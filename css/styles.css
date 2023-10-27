@@ -103,13 +103,7 @@ color: #404BBF;
 .our-benefits {
     background-color: #F4F4FD; 
 }
-.benefits {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
+
 .secondary-menu {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -120,6 +114,7 @@ color: #404BBF;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 .paragraf {
     color: #434455;
