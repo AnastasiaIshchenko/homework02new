@@ -136,7 +136,7 @@ color: #404BBF;
 }
 .paragraf {
     color: #434455;
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
@@ -145,20 +145,28 @@ color: #404BBF;
 /* ====== OUR BENEFITS =====*/
 
 /*========OUR TEAM ======*/
-.titel2 {
-    font-family: Roboto;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.1;
-     letter-spacing: 0.72px;
-    text-transform: capitalize;
-    color: #2E2F42;
-}
-/*========OUR TEAM ======*/
 .our-team {
     background-color: #F4F4FD;
 }
-
+.titel2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+     letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center
+    color: #2E2F42;
+}
+.names {
+    color: #2E2F42;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+}
 /*======OUR PORTFOLIO======*/
 
 
