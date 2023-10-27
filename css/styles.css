@@ -43,7 +43,7 @@ color: #404BBF;
 .menu-link:focus {
     color: #404BBF;
 }
-.adress {
+.address {
     font-style: normal;
 }
 .contacts {
@@ -193,7 +193,7 @@ color: #404BBF;
     color: #F4F4FD;
 }
 
-.menu-item {
+.menu-item-team {
     background-color: #FFFFFF;
 
 }
